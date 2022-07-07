@@ -133,5 +133,32 @@
             <a href="https://htmlacademy.ru">HTML Academy</a>
         </p>
     </footer>
+
+    <section>
+        <h2>Личный кабинет</h2>
+        <p>Введите логин и пароль</p>
+        <form action="https://echo.htmlacademy.ru" method="post">
+            <p>
+                <label for="login-login">Логин</label>
+                <input id="login-login" type="email" name="login" placeholder="email@example.ru">
+            </p>
+
+            <p>
+                <label for="login-password">Пароль</label>
+                <input id="login-password" type="password" name="password" placeholder="•••••••">
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" name="remember">
+                    Запомнить меня
+                </label>
+                <a href="blank.html">Забыл пароль!</a>
+            </p>
+
+            <button type="submit">Войти</button>
+        </form>
+        <button type="button">Закрыть</button>
+    </section>
 </body>
 </html>
