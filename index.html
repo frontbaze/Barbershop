@@ -87,7 +87,25 @@
         <section class="appointment">
             <h2>Записаться</h2>
             <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения бронирования</p>
-            <!-- Здесь будет форма -->
+            <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+                <p class="appointment-item">
+                    <label for="appointment-date">Дата</label>
+                    <input id="appointment-date" type="text" name="date" placeholder="01.01.2022">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-time">Дата</label>
+                    <input id="appointment-time" type="text" name="time" placeholder="10:00">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-name">Дата</label>
+                    <input id="appointment-name" type="text" name="name" placeholder="Иван">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-phone">Дата</label>
+                    <input id="appointment-phone" type="tel" name="phone" placeholder="+7 000 000-00-00">
+                </p>
+                <button class="button" type="submit">Отправить</button>
+            </form>
         </section>
     </main>
 
