@@ -241,3 +241,42 @@ img {
     font-size: 30px;
     line-height: 42px;
 }
+
+/* LOGIN FORM */
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    font: inherit;
+    color: var(--basic-black);
+    text-transform: uppercase;
+    background-color: var(--basic-extra-light);
+    border: 2px solid var(--basic-black);
+}
+
+.login-form input:focus {
+    border-color: var(--special);
+}
+
+.login-icon-user {
+    background-image: url("../img/svg/user.svg");
+    background-position: 270px center;
+    background-repeat: no-repeat;
+}
+
+.login-icon-password {
+    background-image: url("../img/svg/lock.svg");
+    background-position: 270px center;
+    background-repeat: no-repeat;
+}
+
+/* RESTORE */
+
+.restore {
+    color: var(--basic-black);
+    text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+    text-decoration: none;
+}
