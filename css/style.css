@@ -105,3 +105,18 @@ img {
     font-size: 30px;
     line-height: 42px;
 }
+
+/* INDEX-COLUMNS */
+
+.index-columns {
+    color: var(--basic-black);
+    background-color: var(--basic-extra-light);
+    background-image: url("../img/pattern-light.png");
+    background-position: center, 0 0;
+    background-repeat: repeat;
+}
+
+.index-columns h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
