@@ -46,3 +46,33 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
 }
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* MAIN NAVIGATION */
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--basic-white);
+    background-color: transparent;
+}
+
+.main-navigation-wrapper {
+    background-color: var(--basic-black);
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+    background-color: var(--basic-black);
+}
