@@ -120,3 +120,28 @@ img {
     font-size: 30px;
     line-height: 42px;
 }
+
+/* NEWS */
+
+.news-list {
+    list-style: none;
+}
+
+/* GALLERY */
+
+.gallery-content {
+    background-color: var(--basic-dark);
+    border: 7px solid var(--basic-white);
+}
+
+/* BUTTON */
+
+.button {
+    font: inherit;
+    text-align: center;
+    color: var(--basic-white);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: var(--basic-black);
+    border: none;
+}
