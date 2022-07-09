@@ -1,4 +1,4 @@
-/*FONTS*/
+/* FONTS */
 
 @font-face {
     font-family: "PT Sans Narrow";
@@ -14,4 +14,35 @@
         url("../fonts/ptsansnarrowbold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
+}
+
+/* VERIABLES */
+
+:root {
+    --basic-black: #000;
+    --basic-extra-dark: #242424;
+    --basic-dark: #aba9a7;
+    --basic-natural: #e5e5e5;
+    --basic-extra-light: #f8f5f2;
+    --basic-white: #fff;
+
+    --special: #663d15;
+}
+
+/* GLOBAL */
+
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--basic-white);
+    text-transform: uppercase;
+    background-color: var(--basic-black);
+    background-image: url("../img/bg-main.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
 }
