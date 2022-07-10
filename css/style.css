@@ -169,6 +169,9 @@ img {
 /* INDEX-COLUMNS */
 
 .index-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 36px;
     color: var(--basic-black);
     background-color: var(--basic-extra-light);
     background-image: url("../img/pattern-light.png");
