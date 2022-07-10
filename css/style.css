@@ -91,6 +91,10 @@ img {
     justify-self: center;
 }
 
+.inner-page .main-header-logo {
+    order: 0;
+}
+
 /* MAIN NAVIGATION */
 
 .main-navigation {
@@ -109,6 +113,10 @@ img {
     width: 940px;
     margin: 0 auto;
     padding: 0 10px;
+}
+
+.inner-page .main-navigation-wrapper {
+    grid-template-columns: 170px 1fr min-content;
 }
 
 /* SITE NAVIGATION */
