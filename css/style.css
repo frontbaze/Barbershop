@@ -76,6 +76,14 @@ img {
     background-color: var(--basic-black);
 }
 
+/* CONTAINER */
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
 /* LOGO */
 
 .main-header-logo {
@@ -132,7 +140,16 @@ img {
 
 /* FEATURES */
 
+.features {
+    margin-bottom: 80px;
+}
+
 .features-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -143,6 +160,10 @@ img {
 .feature-item h3 {
     font-size: 30px;
     line-height: 42px;
+}
+
+.feature-item p {
+    margin: 0 10px;
 }
 
 /* INDEX-COLUMNS */
