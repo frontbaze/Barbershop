@@ -45,6 +45,11 @@ body {
     background-image: url("../img/bg-main.jpg");
     background-position: top center;
     background-repeat: no-repeat;
+
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
 }
 
 a {
@@ -54,6 +59,11 @@ a {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* GRID */
+.page {
+    height: 100%;
 }
 
 /* MAIN NAVIGATION */
