@@ -66,6 +66,12 @@ img {
     height: 100%;
 }
 
+/* MAIN HRADER */
+
+.main-header {
+    margin-bottom: 70px;
+}
+
 /* MAIN NAVIGATION */
 
 .main-navigation {
