@@ -129,6 +129,57 @@ img {
     order: 0;
 }
 
+.page-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+/* BREADCRUMBS */
+
+.breadcrumbs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.breadcrumbs a {
+    color: var(--basic-black);
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+    text-decoration: underline;
+}
+
+.breadcrumbs-current {
+    color: var(--basic-dark);
+}
+
+/* CATALOG */
+
+.catalog {
+    margin-left: 60px;
+}
+
+.catalog-list {
+    list-style: none;
+}
+
+.catalog-item {
+    background-color: var(--basic-extra-light);
+}
+
+.catalog-item a {
+    color: var(--basic-black);
+}
+
+.catalog-item h3 {
+    
+}
+
 /* MAIN NAVIGATION */
 
 .main-navigation {
