@@ -66,6 +66,30 @@ img {
     height: 100%;
 }
 
+.page-body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
+}
+
+/* GRID FOR PAGES */
+
+.page-catalog {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    align-content: start;
+}
+
+.page-catalog .page-title {
+    grid-column: 1 / -1;
+}
+
+.page-catalog .breadcrumbs {
+    grid-column: 1 / -1;
+    margin-bottom: 40px;
+}
+
 /* MAIN HRADER */
 
 .main-header {
@@ -89,6 +113,16 @@ img {
 .main-header-logo {
     order: 1;
     justify-self: center;
+}
+
+/* INNER PAGE */
+
+.inner-page {
+    color: var(--basic-black);
+    background-color: var(--basic-extra-light);
+    background-image: url("../img/pattern-light.png");
+    background-position: 0 0;
+    background-repeat: repeat;
 }
 
 .inner-page .main-header-logo {
