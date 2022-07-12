@@ -177,10 +177,36 @@ img {
 
 /* FILTER */
 
+.filters {
+    width: 180px;
+}
+
+.filter fieldset {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.filter fieldset:first-child {
+    margin-bottom: 35px;
+}
+
+.filter legend {
+    margin-bottom: 26px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
 .filter ul{
     padding: 0;
     margin: 0;
+    line-height: 18px;
     list-style: none;
+}
+
+.filter li {
+    margin-bottom: 19px;
 }
 
 /* CATALOG */
@@ -196,6 +222,11 @@ img {
     margin: 0;
     margin-bottom: 25px;
     list-style: none;
+}
+
+.catalog-category {
+    display: block;
+    text-transform: none;
 }
 
 .catalog-item {
@@ -222,6 +253,18 @@ img {
     margin-left: 16px;
     font-size: 14px;
     line-height: 18px;
+}
+
+.catalog-item-image {
+    width: 220px;
+    height: 165px;
+    margin: 0;
+}
+
+.catalog-item-price {
+    display: flex;
+    margin: 15px;
+    margin-top: 0;
 }
 
 /* PRODUCT PHOTO */
