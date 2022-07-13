@@ -417,16 +417,12 @@ img {
 .site-navigation {
     width: 620px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     min-height: 70px;
 
     list-style: none;
-}
-
-.site-navigation a {
-    margin-right: 40px;
 }
 
 .site-navigation-current a:not([href]) {
@@ -437,18 +433,39 @@ img {
 
 .user-navigation {
     max-width: 140px;
-    display: flex;
-    align-items: center;
-    margin-right: 25px;
 }
 
 .user-navigation .login-link {
     padding-left: 50px;
+    position: relative;
+}
+
+/* LOGIN LINK */
+
+.login-link::before {
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: 24px;
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/svg/login.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    opacity: 0.3;
+}
+
+.login-link:hover::before,
+.login-link:focus::before,
+.login-link:active::before {
+    opacity: 1;
 }
 
 .site-navigation a,
 .user-navigation a {
     color: var(--basic-white);
+    display: block;
+    padding: 25px 20px;
 }
 
 .site-navigation a:hover,
