@@ -399,7 +399,42 @@ img {
 
 /* PAGINATION */
 
+.pagination-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
+.pagination-item {
+    margin-right: 5px;
+}
+
+.pagination-item:last-child {
+    margin-right: 0;
+}
+
+.pagination-item a {
+    display: block;
+    padding: 10px 19px;
+    color: var(--basic-white);
+    background-color: var(--basic-black);
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+    background-color: var(--special);
+}
+
+.pagination-current a,
+.pagination-current a:hover,
+.pagination-current a:focus,
+.pagination-current a:active {
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+}
 
 /* PRODUCT PHOTO */
 
