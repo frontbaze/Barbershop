@@ -121,7 +121,7 @@ img {
 /* MAIN HRADER */
 
 .main-header {
-    margin-bottom: 70px;
+
 }
 
 .main-header-bar {
@@ -160,6 +160,7 @@ img {
     order: 0;
     width: 111px;
     height: 24px;
+    align-self: center;
 }
 
 .page-title {
@@ -176,6 +177,33 @@ img {
     padding: 0;
     margin: 0;
     list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.breadcrumbs li {
+    position: relative;
+    margin-right: 42px;
+}
+
+.breadcrumbs li::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: -25px;
+    width: 8px;
+    height: 8px;
+    background-color: var(--basic-black);
+    transform: rotate(45deg);
+}
+
+.breadcrumbs li:last-child {
+    margin-right: 0;
+}
+
+.breadcrumbs-current::after {
+    display: none;
 }
 
 .breadcrumbs a {
