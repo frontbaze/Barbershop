@@ -576,11 +576,34 @@ img {
 
 /* CONTACTS */
 
+.contacts {
+    width: 380px;
+}
+
+.contacts p {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
 .contacts-phone {
     color: inherit;
 }
 
 /* APPOINTMENT */
+
+.appointment {
+    width: 300px;
+}
+
+.appointment-info {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.appointment-item {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
 .appointment-item input {
     font: inherit;
@@ -590,6 +613,11 @@ img {
 
 .appointment-item input:focus {
     border-color: var(--special);
+}
+
+.appointment .button {
+    margin-top: 10px;
+    margin-right: 0;
 }
 
 /* MAIN FOOTER */
@@ -675,11 +703,23 @@ img {
 }
 
 .modal-login h2 {
+    margin: 0;
+    margin-bottom: 20px;
     font-size: 30px;
     line-height: 42px;
 }
 
+.modal-description {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
 /* LOGIN FORM */
+
+.login-form p {
+    margin: 0;
+    margin-bottom: 10px;
+}
 
 .login-form input[type="email"],
 .login-form input[type="password"] {
@@ -692,6 +732,10 @@ img {
 
 .login-form input:focus {
     border-color: var(--special);
+}
+
+.login-form .login-help {
+    margin: 15px 0;
 }
 
 .login-icon-user {
