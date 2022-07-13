@@ -44,7 +44,7 @@
         </ul>
 
         <section class="filters">
-            <h2>Фильтр товаров</h2>
+            <h2 class="visually-hidden">Фильтр товаров</h2>
 
             <form class="filter" action="https://echo.htmlacademy.ru" method="get">
                 <fieldset>
@@ -55,23 +55,23 @@
                             <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
                             <label for="filter-baxter-of-california">Baxter of California</label>
                         </li>
-                        <li>
+                        <li class="filter-option filter-checkbox">
                             <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="mrnatty" id="filter-mrnatty">
                             <label for="filter-mrnatty">Mr Natty</label>
                         </li>
-                        <li>
+                        <li class="filter-option filter-checkbox">
                             <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="suavecito" id="filter-suavecito" checked>
                             <label for="filter-suavecito">Suavecito</label>
                         </li>
-                        <li>
+                        <li class="filter-option filter-checkbox">
                             <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="malin+goetz" id="filter-malin+goetz">
                             <label for="filter-malin+goetz">Malin+Goetz</label>
                         </li>
-                        <li>
+                        <li class="filter-option filter-checkbox">
                             <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="malin+goetz" id="filter-malin+goetz">
                             <label for="filter-murrays">Murray's</label>
                         </li>
-                        <li>
+                        <li class="filter-option filter-checkbox">
                             <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="american-crew" id="filter-american-crew" checked>
                             <label for="filter-american-crew">American Crew</label>
                         </li>
@@ -81,26 +81,26 @@
                 <fieldset>
                     <legend>Группы товаров:</legend>
                     <ul>
-                        <li>
-                            <input type="radio" name="product-group" value="shaving" id="filter-shave">
+                        <li class="filter-option filter-radio">
+                            <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-group" value="shaving" id="filter-shave">
                             <label for="filter-shave">Бритвенные принадлежности</label>
                         </li>
-                        <li>
-                            <input type="radio" name="product-group" value="hair-care" id="filter-care" checked>
+                        <li class="filter-option filter-radio">
+                            <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-group" value="hair-care" id="filter-care" checked>
                             <label for="filter-care">Средства для ухода</label>
                         </li>
-                        <li>
-                            <input type="radio" name="product-group" value="accessories" id="filter-accessories">
+                        <li class="filter-option filter-radio">
+                            <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-group" value="accessories" id="filter-accessories">
                             <label for="filter-accessories">Аксессуары</label>
                         </li>
                     </ul>
                 </fieldset>
-                <button class="button" type="submit">Показать</button>
+                <button class="button filter-button" type="submit">Показать</button>
             </form>
         </section>
 
         <section class="catalog">
-            <h2>Список средств для ухода</h2>
+            <h2 class="visually-hidden">Список средств для ухода</h2>
 
             <ul class="catalog-list">
                 <li class="catalog-item">
