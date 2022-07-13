@@ -715,6 +715,7 @@ img {
 .main-footer .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: baseline;
 }
 
 .footer-contacts {
@@ -777,9 +778,14 @@ img {
 /* FOOTER COPYRIGHT */
 
 .footer-copyright {
+    text-align: center;
     max-width: 150px;
     margin: 0;
     justify-self: end;
+}
+
+.footer-copyright a {
+    margin-top: 12px;
 }
 
 .footer-copyright .button:hover,
