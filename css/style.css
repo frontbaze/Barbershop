@@ -524,12 +524,15 @@ img {
 .index-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 50px 80px;
     margin-bottom: 36px;
     color: var(--basic-black);
     background-color: var(--basic-extra-light);
-    background-image: url("../img/pattern-light.png");
-    background-position: 0 0;
-    background-repeat: repeat;
+    background-image:
+        url("../img/line.png"),
+        url("../img/pattern-light.png");
+    background-position: center, 0 0;
+    background-repeat: no-repeat, repeat;
 }
 
 .index-columns h2 {
@@ -546,6 +549,9 @@ img {
 }
 
 .news-list {
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
     list-style: none;
 }
 
@@ -584,6 +590,7 @@ img {
 .button {
     display: inline-block;
     margin-right: 16px;
+    padding: 10px 30px;
     font: inherit;
     text-align: center;
     color: var(--basic-white);
