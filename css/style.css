@@ -415,11 +415,12 @@ img {
 /* SITE NAVIGATION */
 
 .site-navigation {
+    width: 620px;
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
-    margin-top: 26px;
-    margin-bottom: 26px;
+    min-height: 70px;
 
     list-style: none;
 }
@@ -435,8 +436,14 @@ img {
 /* USER NAVIGATION */
 
 .user-navigation {
-    margin-top: 26px;
-    margin-bottom: 26px;
+    max-width: 140px;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.user-navigation .login-link {
+    padding-left: 50px;
 }
 
 .site-navigation a,
