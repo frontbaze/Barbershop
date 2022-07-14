@@ -985,16 +985,25 @@ img {
     line-height: 42px;
 }
 
+.modal-login .button {
+    width: 100%;
+    cursor: pointer;
+}
+
 .modal-description {
     margin: 0;
     margin-bottom: 10px;
+}
+
+.modal-close {
+    border: none;
 }
 
 .modal-close::before {
     content: "";
     position: absolute;
     top: 0;
-    right: -34px;
+    right: -32px;
     width: 22px;
     height: 22px;
     background-image: url("../img/close.svg");
@@ -1016,11 +1025,15 @@ img {
 
 .login-form input[type="email"],
 .login-form input[type="password"] {
+    width: 100%;
+    height: 43px;
+    padding-left: 17px;
     font: inherit;
     color: var(--basic-black);
     text-transform: uppercase;
     background-color: var(--basic-extra-light);
     border: 2px solid var(--basic-black);
+    box-sizing: border-box;
 }
 
 .login-form input:focus {
@@ -1028,6 +1041,8 @@ img {
 }
 
 .login-form .login-help {
+    display: flex;
+    justify-content: space-between;
     margin: 15px 0;
 }
 
@@ -1041,6 +1056,9 @@ img {
     background-image: url("../img/svg/lock.svg");
     background-position: 270px center;
     background-repeat: no-repeat;
+}
+
+.login-checkbox input {
 }
 
 /* RESTORE */
