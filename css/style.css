@@ -986,6 +986,7 @@ img {
 }
 
 .modal-login .button {
+    display: block;
     width: 100%;
     cursor: pointer;
 }
@@ -1058,7 +1059,34 @@ img {
     background-repeat: no-repeat;
 }
 
-.login-checkbox input {
+.login-checkbox {
+    position: relative;
+    padding-left: 35px;
+}
+
+.login-input {
+}
+
+.login-input-checkbox + label::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--basic-black);
+}
+
+.login-input-checkbox:checked + label::after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 12px;
+    height: 12px;
+    background-image: url("../img/svg/cross.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
 
 /* RESTORE */
