@@ -503,6 +503,35 @@ img {
     text-align: center;
 }
 
+/* INNER COLUMNS */
+
+.inner-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.inner-columns-left,
+.inner-columns-right {
+    width: 460px;
+}
+
+.inner-columns-left *:first-child,
+.inner-columns-right *:first-child {
+    margin-top: 0;
+}
+
+.inner-columns-left *:last-child,
+.inner-columns-right *:last-child {
+    margin-bottom: 0;
+}
+
+.inner-columns > h3:first-child {
+    width: 100%;
+    margin-top: 0;
+}
+
 /* PAGINATION */
 
 .pagination-list {
