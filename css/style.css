@@ -75,6 +75,7 @@ img {
   }
 
 /* GRID */
+
 .page {
     height: 100%;
 }
@@ -372,6 +373,7 @@ img {
     width: 220px;
     height: 165px;
     margin: 0;
+    object-fit: contain;
 }
 
 .catalog-item-price {
@@ -768,7 +770,6 @@ img {
 
 .button {
     display: inline-block;
-    margin-right: 16px;
     padding: 10px 30px;
     font: inherit;
     text-align: center;
@@ -1017,6 +1018,7 @@ img {
 /* MAP */
 
 .modal-map {
+    display: none;
     width: 766px;
     height: 560px;
     border: 7px solid var(--basic-white);
