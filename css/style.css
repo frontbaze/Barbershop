@@ -972,6 +972,7 @@ img {
 }
 
 .modal-login {
+    display: none;
     width: 300px;
     top: 120px;
     bottom: auto;
@@ -1004,7 +1005,7 @@ img {
     content: "";
     position: absolute;
     top: 0;
-    right: -32px;
+    right: -45px;
     width: 22px;
     height: 22px;
     background-image: url("../img/close.svg");
@@ -1013,8 +1014,16 @@ img {
     cursor: pointer;
 }
 
+/* MAP */
+
 .modal-map {
-    display: none;
+    width: 766px;
+    height: 560px;
+    border: 7px solid var(--basic-white);
+}
+
+.modal-map img {
+    display: block;
 }
 
 /* LOGIN FORM */
