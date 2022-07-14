@@ -957,12 +957,25 @@ img {
 /* MODAL */
 
 .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
     color: var(--basic-black);
     background-color: var(--basic-extra-light);
     background-image: url("../img/pattern-light.png");
     background-position: 0 0;
     background-repeat: repeat;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+
+.modal-login {
+    width: 300px;
+    top: 120px;
+    bottom: auto;
+    padding: 50px 80px;
 }
 
 .modal-login h2 {
@@ -975,6 +988,23 @@ img {
 .modal-description {
     margin: 0;
     margin-bottom: 10px;
+}
+
+.modal-close::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -34px;
+    width: 22px;
+    height: 22px;
+    background-image: url("../img/close.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.modal-map {
+    display: none;
 }
 
 /* LOGIN FORM */
