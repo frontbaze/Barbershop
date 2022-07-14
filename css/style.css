@@ -489,6 +489,20 @@ img {
     transform: rotate(45deg);
 }
 
+/* CUSTOM TABLE 1 */
+
+.custom-table-1 {
+    width: 100%;
+}
+
+.custom-table-1 td {
+    width: 50%;
+}
+
+.custom-table-1 td:last-child {
+    text-align: center;
+}
+
 /* PAGINATION */
 
 .pagination-list {
