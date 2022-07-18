@@ -147,6 +147,10 @@ img {
     height: 153px;
 }
 
+.logo-index {
+    margin-bottom: 60px;
+}
+
 /* INNER PAGE */
 
 .inner-page {
@@ -1159,6 +1163,14 @@ img {
     width: 766px;
     height: 560px;
     border: 7px solid var(--basic-white);
+}
+
+.modal-map-show {
+    display: block;
+}
+
+.modal-map-close {
+    
 }
 
 .modal-map img {
